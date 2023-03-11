@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: grid;
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 29%;
+    margin-top: 8%;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+p {
+    font-size: 0.6em;
+    color: rose;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    color: hsla(157, 36%, 37%, 1);
+    margin-top: 25px;
+    margin-bottom: 3%;
+}
+
+.price {
+    font-size: 16px;
+}
+
+img {
+    width: 290px;
+    margin-top: 47px;
+}
+
+.product {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 8%;
+    left: 20%;
+}
+
+.product p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: hsla(233, 3%, 62%, 1);
+}
+
+.desc {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: hsla(233, 3%, 62%, 1);
+    font-size: 18px !important;
+}
+
+button {
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    margin: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 10px;
+    height: 12.5%;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsla(157, 36%, 37%, 1);
+    cursor: pointer;
+}
